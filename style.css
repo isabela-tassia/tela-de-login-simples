@@ -18,7 +18,7 @@ body * {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    overflow: auto;
 }
 
 .left-login{
@@ -115,6 +115,9 @@ body * {
 @media only screen and (max-width: 950px){
     .card-login{
         width: 85%;
+    }
+    .left-login-image {
+        padding-top: 130px;
     }
 }
 
